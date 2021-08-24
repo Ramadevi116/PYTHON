@@ -31,17 +31,17 @@
 
 * Syntax of if statement: 
 
-''' python
+``` python
  if condition:
     statements
-'''
+```
 * exp:
 
-''' python
+``` python
   a=input("Entre Your Name:")
   if(a=="Ramadevi"):
      print("Hi Ramadevi")
-'''
+```
 
 ## if-else Statement:
 
@@ -49,22 +49,22 @@
 
 * syntax of if-else: 
 
-'''python
+```python
  if condition1:
     statement1
  else:
     statement2
-'''
+```
 
 * exp: 
 
-'''python
+```python
  a=input("Entre Your Name:")
  if(a=="Ramadevi"):
      print("Hi Ramadevi")
  else:
      print("Unknown Person")
-'''
+```
 
 ## if-elif-else statement:
 
@@ -74,7 +74,7 @@
 
 * syntax for if-elif-else : 
 
-'''python
+```python
 if condition1:
     statement1
 elif condition2:
@@ -83,11 +83,11 @@ elif condition3:
     statemnet3
 else:
     statemnet4
-'''
+```
 
 * exp:
 
-'''python
+```python
 a=input("Entre Your Name:")
 if(a=="Ramadevi"):
     print("Hi Ramadevi")
@@ -97,7 +97,7 @@ elif(a=="Jyothi"):
     print("Hi Jyothi")
 else:
     print("Unknown Person")
-'''
+```
 
 ## Nested if Statement:
 
@@ -105,18 +105,18 @@ else:
 
 * Syntax for Nested if statement.
 
-'''python
+```python
 if condition1:
     if condition2:
         statement1
-'''
+```
 
 * exp:
 
-'''python
+```python
 a=input("Entre Your Name:")
 b=input("Entre Your Name:")
 if(a=="Ramadevi"):
     if(b=="Akshaya"):
         print("Hi Ramadevi....Helo Akshaya")
-'''
+```
