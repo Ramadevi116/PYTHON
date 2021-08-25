@@ -127,5 +127,49 @@ for i in range str:
 print(str)
 ```
 
+## Break statements:
+
+**The break statement can be used inside a for loop or while loop to come out of the loop.**
+
+**When 'break' is executed,it jumps out of the loop to process the next statement.**
+
+```python
+i=1
+while(i>10):
+    print("rama")
+    i+=1
+    if(i==5):
+        break
+```
+
+## Continue statement:
+
+**It is used in a loop to go back to the beginning of the loop.**
+
+**If continue is executed,the next repetition will start.**
+
+```python
+x=0
+while(x<10):
+    x+=1
+    if(x>5):
+        continue
+    print(x)
+```
+
+## Pass statement:
+
+**pass statement does not do any thing.it is used with 'if' statement or inside a loop to represent no operation.**
+
+```python
+list=[1,2,3,4,5,6,7,8,9]
+for i in list:
+    if(i>5):
+        pass
+    else:
+        print(i)
+```
+
+
 
 
