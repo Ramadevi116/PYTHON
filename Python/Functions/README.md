@@ -109,3 +109,13 @@ def Name(str):
 print(Name("Ramadevi"))
 ```
 
+## functions are first class objects:
+
+* It is possible to assign a function to the variable.
+
+* It is possible to define one function inside another function.
+
+* It is possible to pass function as parameter to another function.
+
+* It is possible that a function can return another function.
+
