@@ -107,6 +107,5 @@ def Name(str):
     result=str+msg()
     return result
 print(Name("Ramadevi"))
-
 ```
 
