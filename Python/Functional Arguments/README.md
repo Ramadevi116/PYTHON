@@ -71,5 +71,34 @@ def persons(*names): *names can take zero or more values...
 def name_age(**kwargs): 
 ```
 
+# Local and Global Varables:
+
+**When we declare a variable inside a function,it becomes a ```local veriable```.**
+
+**When we declare a variable outside a function,it becomes a ```gobal variable```.**
+
+```python
+a=10 # Global variable...
+def mul():
+    a=20 # local variable...
+    b=2
+    mul=a*b
+    print(mul)
+    print(a)    # Display local variable..
+mul()
+print(a) # Display Global variable...
+```
+## Global keyword:
+
+**If the user want to use Global variable inside local variable User can use keyword ```global```.**
+
+```python
+a=10
+def fun():
+    global a
+    print(a)
+fun()
+```
+
 
 
