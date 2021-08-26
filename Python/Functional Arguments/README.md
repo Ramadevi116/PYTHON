@@ -71,9 +71,9 @@ def persons(*names): *names can take zero or more values...
 def name_age(**kwargs): 
 ```
 
-# Local and Global Varables:
+# Local and Global Variables:
 
-**When we declare a variable inside a function,it becomes a ```local veriable```.**
+**When we declare a variable inside a function,it becomes a ```local variable```.**
 
 **When we declare a variable outside a function,it becomes a ```global variable```.**
 
