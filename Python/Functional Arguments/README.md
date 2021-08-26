@@ -75,7 +75,7 @@ def name_age(**kwargs):
 
 **When we declare a variable inside a function,it becomes a ```local veriable```.**
 
-**When we declare a variable outside a function,it becomes a ```gobal variable```.**
+**When we declare a variable outside a function,it becomes a ```global variable```.**
 
 ```python
 a=10 # Global variable...
