@@ -10,18 +10,21 @@ def dance():
     Akshaya_score=[]
     Bhavitha_score=[]
     print("Judges score:")
+    print("Ramadevi..score🧍‍♀️")
     for i in range(1):
          for j in range(len2):
             score=int(input("Enter score of 10:"))
             print(Contestants[i],"got score",score,"from",judges[j])
             Ramadevi_score.append(score)
             print(Ramadevi_score)
+    print("Akshaya..score🧍‍♀️")
     for i in range(1,2):
          for j in range(len2):
             score=int(input("Enter score of 10:"))
             print(Contestants[i],"got score",score,"from",judges[j])
             Akshaya_score.append(score)
             print(Akshaya_score)
+    print("Bhavitha..score🧍‍♀️")
     for i in range(2,3):
          for j in range(len2):
             score=int(input("Enter score of 10:"))
@@ -49,7 +52,10 @@ def dance():
     elif(score2>score1):
         if(score2>score3):
             print("Today dance + winner is Akshaya...🎉🎉")
+    elif(score3>score1):
+        if(score3>score2):
+            print("Today dance + winner is Bhavitha...🎉🎉")
     else:
-        print("Today dance + winner is Bhavitha...🎉🎉")
+        print("Tiebreak......Wait and watch in next episode....Byee..Byee.....🤠")
 
 dance()
