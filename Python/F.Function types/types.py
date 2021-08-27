@@ -12,20 +12,28 @@ count_down(3)
 lambda x,y : x if x>y else y
 print(max(10,20))
 
-# using lambdas with filter() function:
+# filter() function:
 
 def family(count):
     f=True if count%2==0 else False
     return f
 Family_list=[1,2,3,4,5]
 print(list(filter(family,Family_list)))
+            # or
+lst=[1,2,3,4,5]
+fun=list(filter(lambda count:(count%2==0),lst))
+print(fun)
 
-# using lambdas with map() function:
+# map() function:
 
 def family(count):
     return count*count
 Family_list=[1,2,3,4,5]
 print(list(map(family,Family_list)))
+                # or
+lst=[1,2,3,4,5]
+fun=list(map(lambda count:(count*count),lst))
+print(fun)
 
 # function decorators:
 
