@@ -6,7 +6,7 @@
 
 * Tuple
 
-* Dictonary
+* Dictionary
 
 * Set
 
@@ -197,7 +197,7 @@ print(list)
 
 ## Tuple[immutable].
 
-**Tuple values is arranged between parentheses [] **
+**Tuple values is arranged between parentheses []**
 
 * methods:
     
