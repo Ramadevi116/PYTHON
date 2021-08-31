@@ -1,4 +1,4 @@
-# Data strctures:
+# Sequences:
 
 * String
 
